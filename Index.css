@@ -220,7 +220,7 @@ nav {
     z-index: 1;
 }
 .logo h3 {
-    font-size: 10px;
+    font-size: 9px;
 }
 .navbar li {
     float: left;
@@ -242,7 +242,7 @@ nav {
 }
 
 #home {
-    width: 320px;
+    width: 310px;
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -279,15 +279,15 @@ form input::placeholder {
     font-size: 10px;
 }
 #about {
-    width: 345px;
+    width: 310px;
     background-color: rgb(244, 241, 241);
 }
 #properties {
-    width: 345px;
+    width: 310px;
     background-color: white;
 }
 #contact {
-    width: 345px;
+    width: 310px;
     background-color: black;
 }
 
@@ -299,7 +299,7 @@ form input::placeholder {
 #about h1 {
     font-size: 20px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 #about .about-content {
@@ -318,7 +318,7 @@ form input::placeholder {
     margin-bottom: 20px;
 }
 .present p {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 0px;
     padding: 20px;
 }
