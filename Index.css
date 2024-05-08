@@ -312,24 +312,23 @@ form input::placeholder {
     cursor: pointer;
 }
 .container img {
-    max-width: 300px;
+    max-width: 400px;
     overflow: hidden;
     object-fit: cover;
-    margin-left: 35px;
-    margin-left: -35px;
+    margin-left: -20px;
     padding: 0px;
     padding-left: 90px;
 }
 .properties-content h3 {
     font-size: 20px;
-    padding-right: 20px;
+    padding-right: 90px;
     padding-bottom: 50px;
     margin-bottom: 0px;
     margin-left: 0px;
 }
 .properties-content p {
-    font-size: 15px;
-    padding-right: 50px;
+    font-size: 18px;
+    padding-right: 10px;
     padding-bottom: 50px;
 }
 #contact {
