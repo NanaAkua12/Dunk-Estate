@@ -371,7 +371,7 @@ form input::placeholder {
 
 }
 
-@media only screen and (min-width: 421px) {
+@media only screen and (min-width: 769px) {
 
     nav {
         padding: 0 8px;
