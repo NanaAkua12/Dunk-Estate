@@ -7,7 +7,6 @@
 body {
     overflow-x: hidden;
 }
-
 nav {
     background: lightcoral;
     padding: 0 15px;
@@ -39,9 +38,8 @@ nav {
     text-decoration: none;
     padding: 15px 10px;
     text-align: center;
-    display: block; 
+    display: block;
 }
-
 #about {
     background-color: rgb(244, 241, 241);
 }
@@ -68,7 +66,6 @@ nav {
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
     cursor: text;
 }
-
 #home {
     background-image: url("Room3.jpg");
     background-repeat: no-repeat;
@@ -79,7 +76,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
 form {
     background: linear
     linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
@@ -95,7 +91,6 @@ form {
     gap: 10px;
     padding: 30px 0;
 }
-
 .form-group {
     width: 80%;
 }
@@ -130,15 +125,12 @@ form input::placeholder {
     flex-direction: column;
     gap: 20px;
 }
-
 .present{
     text-align: center;
 }
-
 .present h1 {
     margin-bottom: 20px;
 }
-
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -188,7 +180,6 @@ form input::placeholder {
     column-gap: 50px;
     padding: 20px;
 }
-
 .grid-container div h4 {
     margin-bottom: 15px;
     font-size: 20px;
@@ -240,7 +231,6 @@ nav {
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
     cursor: text;
 }
-
 #home {
     width: 310px;
     min-height: 100vh;
@@ -249,13 +239,10 @@ nav {
     justify-content: left;
     align-items: right;
 }
-
-
 form {
     width: 450px;
     padding-right: 10px;
 }
-
 .form-group {
     width: 80%;
 }
@@ -274,7 +261,6 @@ form input {
     outline-color: #1c093c;
     font-size: 16px;
 }
-
 form input::placeholder {
     font-size: 10px;
 }
@@ -290,18 +276,15 @@ form input::placeholder {
     width: 310px;
     background-color: black;
 }
-
 #about,
 #properties {
     padding: 0px;
 }
-
 #about h1 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
 }
-
 #about .about-content {
     padding: 20px;
     display: flex;
@@ -362,7 +345,6 @@ form input::placeholder {
     column-gap: 90px;
     padding: -10px;
 }
-
 .grid-container div h4 {
     margin-bottom: 15px;
     font-size: 20px;
@@ -557,4 +539,4 @@ form input::placeholder {
         color: rgb(228, 228, 221);
     }
 
-    } */
+    }
