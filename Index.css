@@ -202,7 +202,7 @@ form input::placeholder {
     color: rgb(228, 228, 221);
 }
 
-@media only screen and (max-width: 440px){
+@media only screen and (max-width: 600px){
 
 nav {
     padding: 0px 0px;
