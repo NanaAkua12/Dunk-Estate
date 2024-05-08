@@ -215,7 +215,7 @@ form input::placeholder {
 
 nav {
     padding: 0 8px;
-    width: 320px;
+    width: 325px;
     position: sticky;
     z-index: 1;
 }
@@ -392,7 +392,7 @@ form input::placeholder {
 
 }
 
-/* @media only screen and (min-width: 420px){
+@media only screen and (min-width: 420px){
 
     nav {
         padding: 0 8px;
@@ -458,7 +458,7 @@ form input::placeholder {
         width: 320px;
         background-color: burlywood;
         /* background-color: rgb(244, 241, 241); */
-    /* }
+    }
     #properties {
         width: 320px;
         background-color: white;
