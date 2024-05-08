@@ -202,11 +202,11 @@ form input::placeholder {
     color: rgb(228, 228, 221);
 }
 
-@media only screen and (max-width: 435px){
+@media only screen and (max-width: 420px){
 
 nav {
     padding: 0px 0px;
-    width: 310px;
+    width: 320px;
     position: sticky;
     z-index: 1;
 }
@@ -232,7 +232,7 @@ nav {
     cursor: text;
 }
 #home {
-    width: 310px;
+    width: 320px;
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -265,15 +265,15 @@ form input::placeholder {
     font-size: 10px;
 }
 #about {
-    width: 310px;
+    width: 320px;
     background-color: rgb(244, 241, 241);
 }
 #properties {
-    width: 310px;
+    width: 320px;
     background-color: white;
 }
 #contact {
-    width: 310px;
+    width: 320px;
     background-color: black;
 }
 #about,
