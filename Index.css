@@ -392,7 +392,7 @@ form input::placeholder {
 
 }
 
-@media only screen and (min-width: 420px){
+/* @media only screen and (min-width: 420px){
 
     nav {
         padding: 0 8px;
@@ -458,7 +458,7 @@ form input::placeholder {
         width: 320px;
         background-color: burlywood;
         /* background-color: rgb(244, 241, 241); */
-    }
+    /* }
     #properties {
         width: 320px;
         background-color: white;
@@ -560,4 +560,4 @@ form input::placeholder {
         color: rgb(228, 228, 221);
     }
 
-    }
+    } */
