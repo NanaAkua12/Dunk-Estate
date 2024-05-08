@@ -299,7 +299,7 @@ form input::placeholder {
 #about h1 {
     font-size: 20px;
     text-align: center;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 #about .about-content {
@@ -308,11 +308,9 @@ form input::placeholder {
     flex-direction: column;
     gap: 10px ;
 }
-
 .present{
     text-align: center;
 }
-
 .present h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -322,7 +320,6 @@ form input::placeholder {
     margin-bottom: 0px;
     padding: 20px;
 }
-
 .container {
     width: 90%;
     display: grid;
@@ -341,16 +338,16 @@ form input::placeholder {
     padding-left: 90px;
 }
 .properties-content h3 {
-    font-size: 25px;
-    padding-left: 40px;
-    padding-top: 50px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
     margin-bottom: 0px;
     margin-left: 0px;
 }
 .properties-content p {
-    font-size: 18px;
+    font-size: 15px;
     padding-left: 55px;
-    padding-top: 30px;
+    padding-bottom: 50px;
 }
 #contact {
     background: black;
