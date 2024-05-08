@@ -233,7 +233,7 @@ nav {
 }
 #home {
     width: 370px;
-    min-height: 150vh;
+    min-height: 70vh;
     position: relative;
     display: flex;
     justify-content: left;
