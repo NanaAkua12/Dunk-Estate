@@ -266,8 +266,7 @@ form input::placeholder {
 }
 #about {
     width: 310px;
-    background-color: blueviolet;
-    /* background-color: rgb(244, 241, 241); */
+    background-color: rgb(244, 241, 241);
 }
 #properties {
     width: 310px;
@@ -372,7 +371,7 @@ form input::placeholder {
 
 }
 
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
 
     nav {
         padding: 0 8px;
@@ -438,7 +437,7 @@ form input::placeholder {
         width: 320px;
         background-color: burlywood;
         /* background-color: rgb(244, 241, 241); */
-    }
+    /* }
     #properties {
         width: 320px;
         background-color: white;
@@ -540,4 +539,4 @@ form input::placeholder {
         color: rgb(228, 228, 221);
     }
 
-    }
+    } */
