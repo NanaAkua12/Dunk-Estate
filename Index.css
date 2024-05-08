@@ -214,7 +214,7 @@ form input::placeholder {
 @media only screen and (max-width: 420px){
 
 nav {
-    padding: 0 8px;
+    padding: 0 4px;
     width: 345px;
     position: sticky;
     z-index: 1;
