@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    background: lightcoral;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    z-index: 1;
+}
+.logo h3 {
+    font-size: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.navbar li {
+    float: left;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 10px;
+    text-align: center;
+    display: block; 
+}
+
+#about {
+    background-color: rgb(244, 241, 241);
+}
+#properties {
+    background-color: white;
+}
+#contact {
+    background-color: black;
+}
+.contain {
+    background: linear
+    linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    width: 65%;
+    min-width: 400px;
+    padding: 35px 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+    cursor: text;
+}
+
+#home {
+    background-image: url("Room3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: linear
+    linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    width: 500px;
+    margin: 30px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+.form-group {
+    width: 80%;
+}
+form label {
+    color: black;
+    font-size: 14px;
+    display: block;
+    height: 20px;
+}
+form input {
+    width: 100%;
+    font-weight: 400px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline-color: #1c093c;
+    font-size: 16px;
+}
+form input::placeholder {
+    font-size: 10px;
+}
+#about,
+#properties {
+    padding: 40px;
+}
+#about h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.present{
+    text-align: center;
+}
+
+.present h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px 0px;
+    padding: 60px 60px;
+    margin: 50px 50px;
+    width: 90%;
+    cursor: pointer;
+}
+.container img {
+    display: flex;
+    max-width: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    padding-left: 0px;
+}
+.properties-content h3 {
+    font-size: 20px;
+    padding-left: 100px;
+    padding: 60px;
+    margin-top: -30px;
+}
+.properties-content p {
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+
+.properties-content button {
+    display: inline-block;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+#contact {
+    background: black;
+    color: white;
+    padding: 50px;
+}
+.grid-container {
+    display: grid;
+    width: 90%;
+    margin: 0px auto;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 50px;
+    padding: 20px;
+}
+
+.grid-container div h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.grid-container div p {
+    margin: 10px 0px;
+}
+#contact .line {
+    width: 90%;
+    margin: 0px auto;
+    height: 1px;
+    background: rgb(107, 107, 107);
+}
+.end-text-11 {
+    padding: 40px 300px;
+    margin: 20px 20px;
+}
+.end-text-1 p small {
+    padding: 0px 300px;
+    color: rgb(228, 228, 221);
+}
+
+@media only screen and (max-width: 420px){
+
+nav {
+    padding: 0 8px;
+    width: 320px;
+    position: sticky;
+    z-index: 1;
+}
+.logo h3 {
+    font-size: 10px;
+}
+.navbar li {
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    font-size: 8px;
+}
+.contain {
+    width: 100%;
+    min-width: 200px;
+    padding: 18px 25px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+    cursor: text;
+}
+
+#home {
+    width: 320px;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+
+
+form {
+    width: 450px;
+    padding-right: 10px;
+}
+
+.form-group {
+    width: 80%;
+}
+form label {
+    color: black;
+    font-size: 14px;
+    display: block;
+    height: 20px;
+}
+form input {
+    width: 100%;
+    font-weight: 400px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline-color: #1c093c;
+    font-size: 16px;
+}
+
+form input::placeholder {
+    font-size: 10px;
+}
+#about {
+    width: 320px;
+    background-color: rgb(244, 241, 241);
+}
+#properties {
+    width: 320px;
+    background-color: white;
+}
+#contact {
+    width: 320px;
+    background-color: black;
+}
+
+#about,
+#properties {
+    padding: 0px;
+}
+
+#about h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about .about-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+}
+
+.present{
+    text-align: center;
+}
+
+.present h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.present p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 0px;
+    margin: 25px -20px;
+    cursor: pointer;
+}
+.container img {
+    max-width: 350px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 45px;
+    margin-left: -35px;
+    padding: 0px;
+    padding-left: 90px;
+}
+.properties-content h3 {
+    font-size: 25px;
+    padding-left: 60px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.properties-content p {
+    font-size: 18px;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+#contact {
+    background: black;
+    color: white;
+    padding: 50px 0px;
+}
+.grid-container {
+    display: grid;
+    width: 90%;
+    margin: 0px auto;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 90px;
+    padding: -10px;
+}
+
+.grid-container div h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.grid-container div p {
+    margin: 10px 0px;
+}
+    #contact .line {
+    width: 90%;
+    margin: 0px auto;
+    height: 1px;
+    background: rgb(107, 107, 107);
+}
+.end-text-11 {
+    font-size: 13px;
+    padding: 20px 10px;
+    margin: 10px 0px;
+}
+.end-text-1 p small {
+    font-size: 10px;
+    padding: 0px 0px;
+    color: rgb(228, 228, 221);
+}
+
+}
+
+@media only screen and (min-width: 421px){
+
+    nav {
+        padding: 0 8px;
+        width: 620px;
+        position: sticky;
+        z-index: 1;
+    }
+    .logo h3 {
+        font-size: 20px;
+    }
+    .navbar li {
+        float: left;
+        text-align: left;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .contain {
+        width: 100%;
+        min-width: 200px;
+        padding: 18px 25px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        border-radius: 10px;
+        box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+        cursor: text;
+    }
+
+    #home {
+        width: 620px;
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: left;
+        align-items: right;
+    }
+
+
+    form {
+        width: 650px;
+        padding-right: 10px;
+    }
+
+    .form-group {
+        width: 80%;
+    }
+    form label {
+        color: black;
+        font-size: 14px;
+        display: block;
+        height: 20px;
+    }
+    form input {
+        width: 100%;
+        font-weight: 400px;
+        padding: 12px;
+        border-radius: 5px;
+        border: 1px solid black;
+        outline-color: #1c093c;
+        font-size: 16px;
+    }
+    
+    form input::placeholder {
+        font-size: 10px;
+    }
+    #about {
+        width: 620px;
+        background-color: rgb(244, 241, 241);
+    }
+    #properties {
+        width: 620px;
+        background-color: white;
+    }
+    #contact {
+        width: 320px;
+        background-color: black;
+    }
+    
+    #about,
+    #properties {
+        padding: 0px;
+    }
+    
+    #about h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #about .about-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px ;
+    }
+    
+    .present{
+        text-align: center;
+    }
+    
+    .present h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .present p {
+        font-size: 15px;
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+    
+    .container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px 0px;
+        margin: 25px -20px;
+        cursor: pointer;
+    }
+    .container img {
+        max-width: 500px;
+        overflow: hidden;
+        object-fit: cover;
+        margin-left: 45px;
+        margin-left: -35px;
+        padding: 0px;
+        padding-left: 90px;
+    }
+    .properties-content h3 {
+        font-size: 25px;
+        padding-left: 60px;
+        padding-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .properties-content p {
+        font-size: 18px;
+        padding-left: 55px;
+        padding-top: 30px;
+    }
+    #contact {
+        background: black;
+        color: white;
+        padding: 50px 0px;
+    }
+    .grid-container {
+        display: grid;
+        width: 90%;
+        margin: 0px auto;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 90px;
+        padding: -10px;
+    }
+    
+    .grid-container div h4 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .grid-container div p {
+        margin: 10px 0px;
+    }
+        #contact .line {
+        width: 90%;
+        margin: 0px auto;
+        height: 1px;
+        background: rgb(107, 107, 107);
+    }
+    .end-text-11 {
+        font-size: 13px;
+        padding: 20px 10px;
+        margin: 10px 0px;
+    }
+    .end-text-1 p small {
+        font-size: 10px;
+        padding: 0px 0px;
+        color: rgb(228, 228, 221);
+    }
+    
+    }
