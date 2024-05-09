@@ -212,7 +212,7 @@ form input::placeholder {
 
 nav {
     padding: 0 8px;
-    width: 320px;
+    /* width: 320px; */
     position: sticky;
     z-index: 1;
 }
@@ -239,7 +239,7 @@ nav {
 }
 
 #home {
-    width: 320px;
+    /* width: 320px; */
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -276,15 +276,15 @@ form input::placeholder {
     font-size: 10px;
 }
 #about {
-    width: 320px;
+    /* width: 320px; */
     background-color: rgb(244, 241, 241);
 }
 #properties {
-    width: 320px;
+    /* width: 320px; */
     background-color: white;
 }
 #contact {
-    width: 320px;
+    /* width: 320px; */
     background-color: black;
 }
 
