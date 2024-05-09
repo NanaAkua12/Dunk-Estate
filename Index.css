@@ -390,17 +390,17 @@ form input::placeholder {
 }
 
 @media only screen and (min-width: 420px){
-    {
-nav {
+
+/* nav {
     background: lightcoral;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
+    top: 0; */
     /* width: 100%; */
-    z-index: 1;
+    /* z-index: 1;
 }
 .logo h3 {
     font-size: 20px;
@@ -428,7 +428,7 @@ nav {
 #about {
     background-color: aquamarine;
     /* background-color: rgb(244, 241, 241); */
-}
+/* }
 #properties {
     background-color: white;
 }
@@ -591,5 +591,5 @@ form input::placeholder {
     padding: 0px 300px;
     color: rgb(228, 228, 221);
 }
-
+ */
 }
