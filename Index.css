@@ -7,7 +7,6 @@
 body {
     overflow-x: hidden;
 }
-
 nav {
     background: lightcoral;
     padding: 0 15px;
@@ -16,7 +15,6 @@ nav {
     align-items: center;
     position: sticky;
     top: 0;
-    /* width: 100%; */
     z-index: 1;
 }
 .logo h3 {
@@ -39,9 +37,8 @@ nav {
     text-decoration: none;
     padding: 15px 10px;
     text-align: center;
-    display: block; 
+    display: block;
 }
-
 #about {
     background-color: rgb(244, 241, 241);
 }
@@ -68,7 +65,6 @@ nav {
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
     cursor: text;
 }
-
 #home {
     background-image: url("Room3.jpg");
     background-repeat: no-repeat;
@@ -79,7 +75,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
 form {
     background: linear
     linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
@@ -95,7 +90,6 @@ form {
     gap: 10px;
     padding: 30px 0;
 }
-
 .form-group {
     width: 80%;
 }
@@ -162,7 +156,6 @@ form input::placeholder {
     padding-left: 90px;
     padding-bottom: 20px;
 }
-
 .properties-content button {
     display: inline-block;
     margin: 0px 10px;
@@ -185,7 +178,6 @@ form input::placeholder {
     column-gap: 50px;
     padding: 20px;
 }
-
 .grid-container div h4 {
     margin-bottom: 15px;
     font-size: 20px;
@@ -211,7 +203,6 @@ form input::placeholder {
 @media only screen and (max-width: 320px){
     nav {
         padding: 0 8px;
-        /* width: 320px; */
         position: sticky;
         z-index: 1;
     }
@@ -236,22 +227,17 @@ form input::placeholder {
         box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
         cursor: text;
     }
-    
     #home {
-        /* width: 320px; */
         min-height: 70vh;
         position: relative;
         display: flex;
         justify-content: left;
         align-items: right;
     }
-    
-    
     form {
         width: 450px;
         padding-right: 10px;
     }
-    
     .form-group {
         width: 80%;
     }
@@ -270,28 +256,22 @@ form input::placeholder {
         outline-color: #1c093c;
         font-size: 16px;
     }
-    
     form input::placeholder {
         font-size: 15px;
     }
     #about {
-        /* width: 320px; */
         background-color: rgb(244, 241, 241);
     }
     #properties {
-        /* width: 320px; */
         background-color: white;
     }
     #contact {
-        /* width: 320px; */
         background-color: black;
     }
-    
     #about,
     #properties {
         padding: 20px;
     }
-    
     #about h1 {
         text-align: center;
         margin-bottom: 20px;
@@ -301,24 +281,9 @@ form input::placeholder {
         flex-direction: column;
         gap: 20px;
     }
-    
-    /* #about h1 {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 50px;
-    }
-    
-    #about .about-content {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px ;
-    } */
-    
     .present{
         text-align: center;
     }
-    
     .present h1 {
         text-align: center;
         margin-bottom: 20px;
@@ -328,7 +293,6 @@ form input::placeholder {
         margin-bottom: 0px;
         padding: 20px;
     }
-    
     .container {
         width: 90%;
         display: grid;
@@ -371,7 +335,6 @@ form input::placeholder {
         column-gap: 90px;
         padding: -10px;
     }
-    
     .grid-container div h4 {
         margin-bottom: 15px;
         font-size: 20px;
@@ -400,7 +363,6 @@ form input::placeholder {
 @media only screen and (max-width: 520px){
 nav {
     padding: 0 8px;
-    /* width: 320px; */
     position: sticky;
     z-index: 1;
 }
@@ -425,22 +387,17 @@ nav {
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
     cursor: text;
 }
-
 #home {
-    /* width: 320px; */
     min-height: 70vh;
     position: relative;
     display: flex;
     justify-content: left;
     align-items: right;
 }
-
-
 form {
     width: 450px;
     padding-right: 10px;
 }
-
 .form-group {
     width: 80%;
 }
@@ -459,28 +416,22 @@ form input {
     outline-color: #1c093c;
     font-size: 16px;
 }
-
 form input::placeholder {
     font-size: 15px;
 }
 #about {
-    /* width: 320px; */
     background-color: rgb(244, 241, 241);
 }
 #properties {
-    /* width: 320px; */
     background-color: white;
 }
 #contact {
-    /* width: 320px; */
     background-color: black;
 }
-
 #about,
 #properties {
     padding: 20px;
 }
-
 #about h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -490,24 +441,9 @@ form input::placeholder {
     flex-direction: column;
     gap: 20px;
 }
-
-/* #about h1 {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-#about .about-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px ;
-} */
-
 .present{
     text-align: center;
 }
-
 .present h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -517,7 +453,6 @@ form input::placeholder {
     margin-bottom: 0px;
     padding: 20px;
 }
-
 .container {
     width: 90%;
     display: grid;
@@ -560,7 +495,6 @@ form input::placeholder {
     column-gap: 90px;
     padding: -10px;
 }
-
 .grid-container div h4 {
     margin-bottom: 15px;
     font-size: 20px;
@@ -590,7 +524,6 @@ form input::placeholder {
 @media only screen and (min-width: 521px){
     nav {
         padding: 0 8px;
-        /* width: 320px; */
         position: sticky;
         z-index: 1;
     }
@@ -621,7 +554,6 @@ form input::placeholder {
     cursor: text;
 }
     #home {
-        /* width: 320px; */
         min-height: 100vh;
         position: relative;
         display: flex;
@@ -647,7 +579,6 @@ form input::placeholder {
         width: 450px;
         padding-right: 10px;
     }
-    
     .form-group {
         width: 80%;
     }
@@ -666,29 +597,22 @@ form input::placeholder {
         outline-color: #1c093c;
         font-size: 16px;
     }
-
     form input::placeholder {
         font-size: 15px;
     }
     #about {
-        /* width: 320px; */
-        background-color: aquamarine;
-        /* background-color: rgb(244, 241, 241); */
+        background-color: rgb(244, 241, 241);
     }
     #properties {
-        /* width: 320px; */
         background-color: white;
     }
     #contact {
-        /* width: 320px; */
         background-color: black;
     }
-    
     #about,
     #properties{
         padding: 30px;
     }
-    
     #about h1 {
         font-size: 25px;
         text-align: center;
@@ -700,24 +624,9 @@ form input::placeholder {
         flex-direction: column;
         gap: 20px;
     }
-
-    /* #about h1 {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    #about .about-content {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px ;
-    } */
-
     .present{
         text-align: center;
     }
-    
     .present h1 {
         font-size: 25px;
         text-align: center;
@@ -729,7 +638,6 @@ form input::placeholder {
         margin-bottom: 0px;
         padding-right: 30px;
     }
-    
     .container {
         width: 90%;
         display: grid;
@@ -799,7 +707,6 @@ form input::placeholder {
     }
 
     @media only screen and (min-width: 1000px){
-       
 nav {
     background: lightcoral;
     padding: 0 15px;
@@ -831,9 +738,8 @@ nav {
     text-decoration: none;
     padding: 15px 10px;
     text-align: center;
-    display: block; 
+    display: block;
 }
-
 #about {
     background-color: rgb(244, 241, 241);
 }
@@ -860,7 +766,6 @@ nav {
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
     cursor: text;
 }
-
 #home {
     background-image: url("Room3.jpg");
     background-repeat: no-repeat;
@@ -871,7 +776,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
 form {
     background: linear
     linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
@@ -887,7 +791,6 @@ form {
     gap: 10px;
     padding: 30px 0;
 }
-
 .form-group {
     width: 80%;
 }
@@ -954,7 +857,6 @@ form input::placeholder {
     padding-left: 90px;
     padding-bottom: 20px;
 }
-
 .properties-content button {
     display: inline-block;
     margin: 0px 10px;
@@ -977,7 +879,6 @@ form input::placeholder {
     column-gap: 50px;
     padding: 20px;
 }
-
 .grid-container div h4 {
     margin-bottom: 15px;
     font-size: 20px;
