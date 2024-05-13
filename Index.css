@@ -34,8 +34,8 @@ ul{
     color: black;
   }
   ul li:hover{
+    opacity: 4;
     border-bottom: 2px solid red;
-    opacity: 2;
   }
 /* .navbar ul {
     list-style-type: none;
