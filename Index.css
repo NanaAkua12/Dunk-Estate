@@ -41,7 +41,7 @@ nav {
 }
 .navbar li:hover{
     transform: scale(1.2);
-    opacity: 6;
+    opacity: 4;
     background-color: rgb(230, 47, 47);
 }
 #about {
@@ -163,7 +163,7 @@ form input::placeholder {
 }
 .btn:hover{
     transform: scale(1.2);
-    opacity: 6;
+    opacity: 4;
     background-color: rgb(230, 47, 47);
 }
 #contact {
