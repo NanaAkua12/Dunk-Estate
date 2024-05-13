@@ -44,7 +44,7 @@ nav {
     opacity: 4;
     border-bottom: 2px solid red;
     /* background-color: rgb(230, 47, 47); */
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* transition: 1s, ease-out, 0.25; */
 }
 #about {
