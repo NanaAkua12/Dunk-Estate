@@ -42,8 +42,8 @@ nav {
 .navbar li:hover{
     opacity: 4;
     border-bottom: 2px solid red;
-    padding: 0px 0px;
-    margin: 0px 0px;
+    padding: 0;
+    /* margin: px 0px; */
     /* background-color: rgb(230, 47, 47); */
     /* text-decoration: underline; */
     /* transition: 1s, ease-out, 0.25; */
