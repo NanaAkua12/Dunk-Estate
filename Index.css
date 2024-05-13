@@ -42,8 +42,9 @@ nav {
 .navbar li:hover{
     transform: scale(1.2);
     opacity: 4;
-    background-color: rgb(230, 47, 47);
+    /* background-color: rgb(230, 47, 47); */
     text-decoration: underline;
+    transition: 1s, ease-out, 0.25;
 }
 #about {
     background-color: rgb(244, 241, 241);
