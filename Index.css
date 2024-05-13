@@ -39,6 +39,11 @@ nav {
     text-align: center;
     display: block;
 }
+.navbar li:hover{
+    transform: scale(1.2);
+    opacity: 6;
+    background-color: rgb(230, 47, 47);
+}
 #about {
     background-color: rgb(244, 241, 241);
 }
@@ -161,15 +166,6 @@ form input::placeholder {
     opacity: 6;
     background-color: rgb(230, 47, 47);
 }
-/* .properties-content button {
-    display: inline-block;
-    margin: 0px 10px;
-    margin-bottom: 20px;
-    padding: 8px;
-    background-color: brown;
-    border: none;
-    cursor: pointer; */
-
 #contact {
     background: black;
     color: white;
