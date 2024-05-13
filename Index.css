@@ -159,7 +159,7 @@ form input::placeholder {
 .btn:hover{
     transform: scale(1.2);
     opacity: 6;
-    color: rgb(230, 47, 47);
+    background-color: rgb(230, 47, 47);
 }
 /* .properties-content button {
     display: inline-block;
