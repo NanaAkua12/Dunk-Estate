@@ -156,15 +156,20 @@ form input::placeholder {
     padding-left: 90px;
     padding-bottom: 20px;
 }
-.properties-content button {
+.btn:hover{
+    transform: scale(1.2);
+    opacity: 6;
+    color: rgb(230, 47, 47);
+}
+/* .properties-content button {
     display: inline-block;
     margin: 0px 10px;
     margin-bottom: 20px;
     padding: 8px;
     background-color: brown;
     border: none;
-    cursor: pointer;
-}
+    cursor: pointer; */
+
 #contact {
     background: black;
     color: white;
