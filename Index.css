@@ -20,7 +20,23 @@ nav {
 .logo h3 {
     font-size: 20px;
 }
-.navbar ul {
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul li{
+    float: left;
+    margin: 0 5px;
+  }
+  ul li a{
+    text-decoration:none;
+    color: black;
+  }
+  ul li:hover{
+    border-bottom: 2px solid red;
+  }
+/* .navbar ul {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -40,14 +56,10 @@ nav {
     display: block;
 }
 .navbar li:hover{
-    opacity: 4;
+    opacity: 1;
     border-bottom: 2px solid red;
     padding: 0;
-    /* margin: px 0px; */
-    /* background-color: rgb(230, 47, 47); */
-    /* text-decoration: underline; */
-    /* transition: 1s, ease-out, 0.25; */
-}
+} */
 #about {
     background-color: rgb(244, 241, 241);
 }
