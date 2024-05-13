@@ -40,7 +40,7 @@ nav {
     display: block;
 }
 .navbar li:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     opacity: 4;
     border-bottom: 2px solid red;
     /* background-color: rgb(230, 47, 47); */
