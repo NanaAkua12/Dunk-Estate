@@ -43,6 +43,7 @@ nav {
     transform: scale(1.2);
     opacity: 4;
     background-color: rgb(230, 47, 47);
+    text-decoration: underline;
 }
 #about {
     background-color: rgb(244, 241, 241);
