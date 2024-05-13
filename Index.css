@@ -35,6 +35,7 @@ ul{
   }
   ul li:hover{
     border-bottom: 2px solid red;
+    opacity: 2;
   }
 /* .navbar ul {
     list-style-type: none;
