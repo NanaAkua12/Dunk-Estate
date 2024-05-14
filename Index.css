@@ -201,6 +201,192 @@ form input::placeholder {
     color: rgb(228, 228, 221);
 }
 
+@media only screen and (min-width: 320px){
+    nav{
+        padding: 0 5px;
+        position: sticky;
+        z-index: 1;
+}
+.logo h3 {
+    font-size: 9px;
+} 
+.navbar li {
+    float: left;
+    text-decoration: none;
+    font-size: 8px;
+}
+.navbar a {
+    padding: 20px 8px;
+}
+.contain {
+    background: linear
+    linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    width: 65%;
+    min-width: 400px;
+    padding: 35px 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+    cursor: text;
+}
+    #home {
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: right;
+    }
+    form{
+    background: linear
+    linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    width: 500px;
+    margin: 30px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+}
+    form {
+        width: 450px;
+        padding-right: 10px;
+    }
+    .form-group {
+        width: 80%;
+    }
+    form label {
+        color: black;
+        font-size: 14px;
+        display: block;
+        height: 20px;
+    }
+    form input {
+        width: 100%;
+        font-weight: 400px;
+        padding: 12px;
+        border-radius: 5px;
+        border: 1px solid black;
+        outline-color: #1c093c;
+        font-size: 16px;
+    }
+    form input::placeholder {
+        font-size: 15px;
+    }
+    #about {
+        background-color: rgb(244, 241, 241);
+    }
+    #properties {
+        background-color: white;
+    }
+    #contact {
+        background-color: black;
+    }
+    #about,
+    #properties{
+        padding: 30px;
+    }
+    #about h1 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about .about-content {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .present{
+        text-align: center;
+    }
+    .present h1 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-right: 90px;
+    }
+    .present p {
+        font-size: 12px;
+        margin-bottom: 0px;
+        padding-right: 30px;
+    }
+    .container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px 15px;
+        margin: 25px 20px;
+        cursor: pointer;
+    }
+    .container img {
+        max-width: 350px;
+        overflow: hidden;
+        object-fit: cover;
+        margin-left: 25px;
+        margin-right: 20px;
+        padding: 0px;
+        padding-left: 10px;
+    }
+    .properties-content h3 {
+        font-size: 18px;
+        padding-right: 90px;
+        padding-top: 80px;
+        margin-bottom: -30px;
+        margin-left: 10px;
+    }
+    .properties-content p {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-bottom: 80px;
+    }
+    #contact {
+        background: black;
+        color: white;
+        padding: 50px 0px;
+    }
+    .grid-container {
+        display: grid;
+        width: 90%;
+        margin: 0px auto;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 90px;
+        padding: -10px;
+    }
+    .grid-container div h4 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .grid-container div p {
+        margin: 10px 0px;
+    }
+        #contact .line {
+        width: 90%;
+        margin: 0px auto;
+        height: 1px;
+        background: rgb(107, 107, 107);
+    }
+    .end-text-11 {
+        font-size: 15px;
+        padding: 20px 150px;
+        margin: 10px 0px;
+    }
+    .end-text-1 p small {
+        font-size: 12px;
+        padding: 0px 0px;
+        color: rgb(228, 228, 221);
+    }
+
+    }
 @media only screen and (min-width: 521px){
     nav{
         padding: 0 15px;
