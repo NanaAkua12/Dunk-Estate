@@ -309,7 +309,7 @@ form input::placeholder {
     }
 
     }
-@media only screen and (min-width: 521px){
+@media only screen and (min-width: 321px){
     nav{
         padding: 0 15px;
         position: sticky;
@@ -333,15 +333,6 @@ form input::placeholder {
         justify-content: center;
         align-items: right;
     }
-    /* #about {
-        background-color: rgb(244, 241, 241);
-    }
-    #properties {
-        background-color: white;
-    }
-    #contact {
-        background-color: black;
-    } */
     #about,
     #properties{
         padding: 30px;
