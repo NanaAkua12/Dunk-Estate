@@ -298,12 +298,12 @@ form input::placeholder {
         background: rgb(107, 107, 107);
     }
     .end-text-11 {
-        font-size: 9px;
-        padding: 20px 100px;
+        font-size: 10px;
+        padding: 20px 35px;
         margin: 10px 0px;
     }
     .end-text-1 p small {
-        font-size: 12px;
+        font-size: 8px;
         padding: 0px 0px;
         color: rgb(228, 228, 221);
     }
