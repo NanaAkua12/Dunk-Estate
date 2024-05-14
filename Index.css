@@ -264,10 +264,14 @@ form input::placeholder {
 }
     .properties-content h3 {
         font-size: 18px;
-        padding-right: 50px;
+        align:center;
+        /* text-align: justify; */
+        padding-left: 30px;
+        /* font-size: 18px;
+        padding-left: 50px;
         padding-top: 80px;
         margin-bottom: -30px;
-        margin-left: 30px;
+        margin-right: 30px; */
     }
     .properties-content p {
         font-size: 12px;
