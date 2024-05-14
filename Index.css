@@ -208,12 +208,12 @@ form input::placeholder {
         z-index: 1;
 }
 .logo h3 {
-    font-size: 9px;
+    font-size: 10px;
 } 
 .navbar li {
     float: left;
     text-decoration: none;
-    font-size: 8px;
+    font-size: 9px;
 }
 .navbar a {
     padding: 20px 8px;
@@ -228,7 +228,7 @@ form input::placeholder {
         margin-bottom: 20px;
 }
 #about .about-content {
-        font-size: 12px;
+        font-size: 15px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -243,7 +243,7 @@ form input::placeholder {
         padding-right: 90px;
 }
 .present p {
-        font-size: 12px;
+        font-size: 15px;
         margin-bottom: 0px;
         padding-right: 30px;
 }
@@ -298,8 +298,8 @@ form input::placeholder {
         background: rgb(107, 107, 107);
     }
     .end-text-11 {
-        font-size: 15px;
-        padding: 20px 150px;
+        font-size: 9px;
+        padding: 20px 100px;
         margin: 10px 0px;
     }
     .end-text-1 p small {
