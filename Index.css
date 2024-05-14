@@ -200,7 +200,7 @@ form input::placeholder {
     padding: 0px 300px;
     color: rgb(228, 228, 221);
 }
-
+/* 
 @media only screen and (max-width: 320px){
     nav {
         padding: 20px 20px;
@@ -261,8 +261,7 @@ form input::placeholder {
         font-size: 15px;
     }
     #about {
-        background-color: blue;
-        /* background-color: rgb(244, 241, 241); */
+        background-color: rgb(244, 241, 241);
     }
     #properties {
         background-color: white;
@@ -361,7 +360,7 @@ form input::placeholder {
         padding: 0px 0px;
         color: rgb(228, 228, 221);
     }
-    }
+    } */
 
 @media only screen and (max-width: 520px){
 nav {
