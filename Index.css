@@ -262,7 +262,8 @@ form input::placeholder {
         font-size: 15px;
     }
     #about {
-        background-color: rgb(244, 241, 241);
+        background-color: blue;
+        /* background-color: rgb(244, 241, 241); */
     }
     #properties {
         background-color: white;
