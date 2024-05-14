@@ -325,11 +325,11 @@ form input::placeholder {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 10px 15px;
-        margin: 25px 20px;
+        margin: 15px 10px;
         cursor: pointer;
     }
     .container img {
-        max-width: 350px;
+        max-width: 300px;
         overflow: hidden;
         object-fit: cover;
         margin-left: 25px;
@@ -404,7 +404,7 @@ form input::placeholder {
 .navbar a {
     padding: 20px 8px;
 }
-.contain {
+/* .contain {
     background: linear
     linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
     backdrop-filter: blur(10px);
@@ -420,7 +420,7 @@ form input::placeholder {
     border-radius: 10px;
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
     cursor: text;
-}
+} */
     #home {
         min-height: 100vh;
         position: relative;
@@ -428,7 +428,7 @@ form input::placeholder {
         justify-content: center;
         align-items: right;
     }
-    form{
+    /* form{
     background: linear
     linear-gradient(135deg, rgba(130, 114, 114, 0.1), rgba(225, 225, 225, 0));
     backdrop-filter: blur(10px);
@@ -442,15 +442,15 @@ form input::placeholder {
     align-items: center;
     gap: 10px;
     padding: 30px 0;
-}
-    form {
+} */
+    /* form {
         width: 450px;
         padding-right: 10px;
     }
     .form-group {
         width: 80%;
-    }
-    form label {
+    } */
+    /* form label {
         color: black;
         font-size: 14px;
         display: block;
@@ -467,7 +467,7 @@ form input::placeholder {
     }
     form input::placeholder {
         font-size: 15px;
-    }
+    } */
     #about {
         background-color: rgb(244, 241, 241);
     }
